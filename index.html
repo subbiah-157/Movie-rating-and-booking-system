@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<style>
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #d6cac9;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+body {
+  background-image: url("images/t1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+h1{
+color:white;
+text-align:center;
+font-weight:bold;
+font-size:40px;
+padding:1px;
+
+}
+h2{
+color:white;
+text-align:center;
+font-weight:bold;
+font-size:40px;
+padding:1px;
+font-family:Monospace;
+
+}
+.logo{
+
+	float : left;
+	margin-left :auto;
+	margin-left :10px;
+}
+.rainbow{
+    position: absolute;
+    right:40px;
+    top: 150px;
+    width: 50rem;
+    height:33rem;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+  border-color: #111211;
+  outline-style: solid;
+  outline-color: #111211;
+  outline-width: 11px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.block {
+	position: absolute;
+    right:7px;
+    top: 109px;
+    width: 750px;
+    height:70%x;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.vi{
+padding: 50px;
+  transition: transform .2s;
+  width: 1500px;
+  height: px;
+  margin: 0 auto;
+}
+.vid{
+padding: 50px;
+  transition: transform .2s;
+  width: 1500px;
+  height: 213px;
+  margin: 0 auto;;
+}
+.lf {
+	position: absolute;
+    left:10px;
+    top: 109px;
+    width: 750px;
+    height:509px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.form2{
+position: absolute;
+    left: 10px;
+    bottom: -500px;
+    width: 1503px;
+    height: 656px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    align-items:center;
+  border-color: white;
+  outline-style: solid;
+  outline-color: #111411;
+  background-image: url("images/.jpg");
+  background-size: cover;
+
+}
+.form2:hover{
+    color: yellow;
+    box-shadow: 2px 2px 35px orange;
+}
+.btn{
+	text-decoration:none;
+	font-size: 15px;
+	font-family:Cursive;
+	color :white;
+	Background-color:green;
+	width:210px;
+	height:70px;
+	padding:8px 35px;
+	border :3px solid white;
+	border-radius:5px;
+}
+.btn:hover{
+	color :White;
+	Background-color:black;
+	
+}
+.Images{
+	display: block;
+  margin-right: auto;
+  
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.mySlides{
+top:100px;
+}
+
+.leftpane{
+
+	position: absolute;
+    left: 1px;
+    top: 50px;
+    
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.rightpane{
+position: absolute;
+    right:10px;
+    top: 674px;
+    width: 566px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.centerpane{
+position: absolute;
+    left:616px;
+    top: 674px;
+    width: 314px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    background-color:black;
+    background-image: url("images/.jpg");
+    align-items:center;
+    background-size: cover;
+}
+p{
+color:white;
+font-weight:bold;
+font-size:40px;
+padding:1px;
+}
+</style>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+<nav>
+           <div class = "logo">
+            <img src = "images/sm2.jpg" height = 45px width =80px>
+             </div>
+        <ul>
+        <!--    <%  String email = (String)session.getAttribute("Email"); %>
+            <li><a href="Profile.jsp"><%out.print(email);%></a></li> -->
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.jsp">ABOUT</a></li>
+            <li><a href="contact.jsp" target="_self">CONTACT</a></li>
+            <li><a href="Signup.jsp" target="_self">SIGNUP</a></li>   
+        </ul>
+    </nav>
+    <br> 
+    <div class="lf">  
+    <video controls loop autoplay preload="metadata">
+    
+    <source src="images/naa ready.mp4" type="video/mp4" class="vi">
+    </video>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+    <form action="Listofmovies.jsp">
+    <div class="form2">
+    <h1 style="background-color:black;text-align:center; color: white; padding:5px; float: right; width:100%;"><b>SM CINEMAS</b></h1>
+     <div class="">
+            <fieldset class="leftpane">
+            <div class="Images" style="max-width:500px">
+  	<img height = 600px width =600px class="mySlides" src="images/leo3.jpeg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/jailer.jpg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/vikram1.jpeg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/varisu1.jpg" style= "border: 3px solid white;" >
+  	<img height = 600px width =600px class="mySlides" src="images/im3.jpeg" style= "border: 3px solid white;" >
+  	<img height = 600px width =600px class="mySlides" src="images/jawan.jpg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/thiru3.jpg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/im1.jpg" style= "border: 3px solid white;" >
+  	<img height = 600px width =600px class="mySlides" src="images/im2.jpeg" style= "border: 3px solid white;">
+  	<img height = 600px width =600px class="mySlides" src="images/im5.jpeg" style= "border: 3px solid white;" >
+  	<img height = 600px width =600px class="mySlides" src="images/kgf.jpg" style= "border: 3px solid white;" >
+  	</div>
+    </fieldset>
+    </div>
+    </div>
+    
+    <fieldset class="centerpane">
+    <br>
+    <center>
+    <h2>RATING</h2>
+    <br>
+    <img height = 150px width =180px src="images/movie.webp" style= "border: 3px solid white;">
+    <br>
+    <br>
+    
+    <button class ="btn"  id="myBtn" name="Movie" value="GOTORATE">GO TO RATE</button>
+    
+    <p><b>________________</b></p>
+    <br>
+    </center>
+    </form>
+    <form action="Selectmovie.jsp" >
+    <center>
+    <h2>KOOLYWOOD</h2>
+    <br>
+    <br>
+    <br>
+    <button class ="btn"  id="myBtn" name="Movie" value="BOOKNOW">BOOK NOW</button><br><br>
+    <br>
+    </center>
+    </form>
+    </div>
+    </fieldset>
+
+    <fieldset class="rightpane">
+    <img height = 600px width =550px src="images/movie.jpg"  >
+    </div>
+    </fieldset>
+    </form>
+    </fieldset>
+    <br>
+    <br>
+    <div class="block">  
+    <video controls loop autoplay preload="metadata">
+    
+    <source src="images/naa ready.mp4" type="video/mp4" class="vid">
+    </video>
+    </div>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+</body>
+</html>
